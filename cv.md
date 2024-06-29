@@ -2,6 +2,7 @@
 
 ## Contacts:
 **Phone:** +998 (93) 571-81-35
+
 **E-mail:** moiseevaryu@gmail.com
 
 ## About me:
@@ -44,3 +45,21 @@ function comp(array1, array2){
   return true;
 } 
 ```
+
+## Expetience:
+* Agency of innovative development (intern, 2023):
+
+    a telegram bot was created to process applications to the commercialization department, as well as a PC application for automatically filling out documents.
+
+
+## Portfolio:
+* Adaptive and semantic layout of landind page - [portfolio for designer](https://reginamos.github.io/portfolio-designer/) - create using HTML5&CSS3 and JavaScript
+
+* Multi-page site - [buy car](https://reginamos.github.io/buy_cars/) - create using HTML5&CSS3 and JavaScript
+
+## Education
+Moscow State University Tashkent branch, Bachelor degree in Applied Mathematics and Computer Science (2020-2024)
+
+## Languages:
+* Russian (C2, native) 
+* English (B2, Intermediate)
