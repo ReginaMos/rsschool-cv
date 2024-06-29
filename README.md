@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ReginaMos.github.io/rsschool-cv/cv
