@@ -1,8 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: black;
-    font-size: 20px;
-    background-color: rgb(216, 231, 243);
+    font-size: 24px;
 }
 
 a {
@@ -12,12 +11,18 @@ a {
 .container {
     max-width: 1320px;
     padding: 0 30px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 /*HEADER*/
+
+.header {
+    background-color: rgb(216, 231, 243);
+}
+
 .nav {
-    background-color: rgb(114, 114, 226);
+    background-color: #1a2694;
+    border-radius: 5%;
     padding: 10px 0;
     margin-bottom: 20px;
 }
@@ -42,8 +47,8 @@ a {
     display: inline-block;
     border-radius: 50%;
     overflow: hidden;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
 }
 
 .img-header img{
@@ -73,4 +78,87 @@ a {
     color: rgb(88, 85, 85);
 }
 
+/*MAIN*/
 
+#skills {
+    background-image: linear-gradient(to bottom, #0d1ca1, #cdcde4);
+    padding: 40px 70px;
+    border-radius: 5%;
+}
+
+#skills h2 {
+    color: white;
+}
+
+.pr-bar {
+    margin-left: 20px;
+    align-items: center;
+}
+
+progress[value] {
+    width: 200px;
+    height: 40px;
+}
+
+#experience {
+    margin-bottom: 60px;
+}
+
+.job {
+    font-weight: 700;
+    color: rgb(80, 76, 76);
+}
+
+#education {
+    background-image: linear-gradient(to bottom, #0d1ca1, #cdcde4);
+    padding: 40px 70px;
+    border-radius: 5%;
+    margin-bottom: 60px;
+}
+
+#education h2 {
+    color: white;
+}
+
+#projects h2 {
+    margin-top: 50px;
+    text-align: center;
+}
+.project {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 60px;
+    text-decoration: underline;
+}
+
+#contacts h2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contacts-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    list-style-type: none;
+}
+
+#contacts img {
+    height: 70px;
+}
+
+.footer {
+    background-color: #1a2694;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    margin-top: 50px;
+}
+
+.footer-img {
+    height: 60px;
+}
