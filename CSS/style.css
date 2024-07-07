@@ -1,7 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 a {
@@ -9,16 +17,11 @@ a {
 }
 
 .container {
-    max-width: 1320px;
-    padding: 0 30px;
-    margin: 10px auto;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /*HEADER*/
-
-.header {
-    background-color: rgb(216, 231, 243);
-}
 
 .nav {
     background-color: #1a2694;
@@ -35,12 +38,18 @@ a {
 
 .nav-link {
     color: white;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color:black;
 }
 
 .header-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 .img-header {
@@ -84,6 +93,7 @@ a {
     background-image: linear-gradient(to bottom, #0d1ca1, #cdcde4);
     padding: 40px 70px;
     border-radius: 5%;
+    margin-bottom: 70px;
 }
 
 #skills h2 {
@@ -91,8 +101,8 @@ a {
 }
 
 .pr-bar {
-    margin-left: 20px;
-    align-items: center;
+    margin-left: 50px;
+    align-items: right;
 }
 
 progress[value] {
@@ -131,6 +141,10 @@ progress[value] {
     text-decoration: underline;
 }
 
+.project img {
+    width: 1000px;
+}
+
 #contacts h2 {
     margin-top: 50px;
     text-align: center;
@@ -145,6 +159,11 @@ progress[value] {
 
 #contacts img {
     height: 70px;
+    transition: transform 0.3s ease;
+}
+
+#contacts img:hover{
+    transform: scale(1.5);
 }
 
 .footer {
@@ -161,4 +180,9 @@ progress[value] {
 
 .footer-img {
     height: 60px;
+    transition: transform 0.3s ease;
+}
+
+.footer-img:hover {
+    transform: scale(1.3);
 }
