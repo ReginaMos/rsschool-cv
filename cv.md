@@ -46,7 +46,7 @@ function comp(array1, array2){
 } 
 ```
 
-## Expetience:
+## Experience:
 * Agency of innovative development (intern, 2023):
 
     a telegram bot was created to process applications to the commercialization department, as well as a PC application for automatically filling out documents.
