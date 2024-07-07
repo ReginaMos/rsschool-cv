@@ -96,6 +96,29 @@
                     </li>
                 </ul>
             </section>
+            <section class="code-example">
+                <h2>Example of code:</h2>
+                <pre>
+                    <code>
+                    function comp(array1, array2) {
+                        array1 ??= 0;
+                        array2 ??= 0;
+                        if (!array1 || !array2) {
+                            return false;
+                        }
+                        array1.sort((a, b) =&gt; (a - b));
+                        array2.sort((a, b) =&gt; (a - b));
+
+                        for(let i = 0; i  &lt; array1.length; i++) {
+                            if(array1[i]**2 != array2[i]) {
+                              return false;
+                            }
+                          }
+                        return true;
+                      }
+                    </code>
+                </pre>
+            </section>
             <section id="education">
                 <h2>Education</h2>
                 <ul>
