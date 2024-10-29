@@ -15,38 +15,36 @@ I consider front-end development an interesting area where I see prospects for d
 ## Skills and technologies:
 * HTML5 & CSS3
 * JavaScript
-* Python (pandas, numpy, aiogram, etc)
-* SQL
-* Git
-* C/C++ (object-oriented programming)
+* Vue JS (Vue Router, VUEX, Vue property decorator, etc)
+* Git (GitHub, GitLab)
 * Figma
 * Adobe Photoshop
+* Python (pandas, numpy, aiogram, etc)
+* SQL
+* C/C++ (object-oriented programming)
+
 
 ## Example of code:
 ``` javascript
-function comp(array1, array2){
-  array1 ??= 0;
-  array2 ??= 0;
-  
-  if (!array1 || !array2)
-    {
-      return false;
-    }
-  
-  array1.sort((a, b) => (a - b));
-  array2.sort((a, b) => (a - b));
-  
-  for(let i = 0; i<array1.length; i++)
-    {
-      if(array1[i]**2 != array2[i]){
-        return false;
-      }
-    }
+function isPrime(num) {
+  if(num <= 1 ) return false;
+
+  for(let i = 2; i<= Math.sqrt(num); i++) {
+    if(num % i === 0) return false;
+  }
+
   return true;
-} 
+}
 ```
 
 ## Experience:
+* Invest Finanse Bank (junior frontend developer, October 2024 - now)
+    
+
+* Invest Finance Bank (internship, July - October 2024)
+  
+    during the internship, I mastered the VUE framework and TypeScript, which helped me actively participate in solving various problems with websites
+
 * Agency of innovative development (intern, 2023):
 
     a telegram bot was created to process applications to the commercialization department, as well as a PC application for automatically filling out documents.
@@ -58,8 +56,13 @@ function comp(array1, array2){
 * Multi-page site - [buy car](https://reginamos.github.io/buy_cars/) - create using HTML5&CSS3 and JavaScript
 
 ## Education
-Moscow State University Tashkent branch, Bachelor degree in Applied Mathematics and Computer Science (2020-2024)
+* Moscow State University Tashkent branch, Bachelor degree in Applied Mathematics and Computer Science (2020-2024)
+
+* Rolling Scopes School, JS/FE Preschool (July - October, 2024)
+
+* Rolling Scopes School, JavaScript/Front-end 2024Q4 (October, 2024 - now)
 
 ## Languages:
 * Russian (C2, native) 
 * English (B2, Intermediate)
+* French (A1, Beginner)
